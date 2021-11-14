@@ -43,21 +43,22 @@ grid-gap: 15px;
    /*grid-row: 2/4;*/
 
    /*grid-area: row-start/coloumn start/row end/coloumn end;*/
-   grid-area: 2/1/4/3
+   grid-area: 3/1/4/3
 }
 .grid-item-3 {
 /*grid-area: content2;*/
+grid-row: span 2;
 
 }
 .grid-item-4{
    /* grid-area: content1;*/
-   grid-area: 3/2/5/3
+   grid-area: 4/2/6/3
     
 }
 .grid-item-5 {
 grid-column: span 2; 
 
-
-
-
+}
+.grid-item-6 {
+   grid-area: 2;
 }

@@ -1,0 +1,13 @@
+.grid-box {
+width: 25%;
+box-shadow: 0 4px 8px 0 rgba( 0, 0, 0, 0.4);
+border-radius: 20px;
+
+
+}
+.img-flw {
+width: 100%;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+
+}
