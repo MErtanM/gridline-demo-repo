@@ -1,29 +1,35 @@
-.container{
-border: 2px solid gray;
-display: flex;
-/*justify-content: center;
-/*align-items: center;*/
-/*flex-wrap: wrap;
-align-content: space-between; */
-}
 
-.flexbox-item {
+.container{
+    border: 2px solid gray;
+    display: flex;
+  flex-wrap: wrap;
+justify-content:center;
+   /*align-content: space-around;
+    height: 1000px;*/
+}
+/*flex direction difoultu rowdur. belirtmrzsen row olarak dizer*/
+/* justify contett main eksen uzerinde hizalama yapar*/
+
+
+
+.flexbox-item{
 background-color: burlywood;
 width: 200px;
 margin: 10px;
 border: 1px solid black;
 
 }
-.item-1 {
+.item-1{
     min-height: 100px;
-    align-self: flex-start;
+    order: 3;
+   /* align-self: flex-start;*/
 }
-
-.item-2 {
+.item-2{
     min-height: 200px;
-   /* align-self: end;*/
+order: 1;
+    /*align-self: flex-end;*/
 }
-
-.item-3 {
+.item-3{
     min-height: 300px;
+    order: 2;
 }
