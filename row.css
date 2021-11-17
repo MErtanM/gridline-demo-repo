@@ -1,0 +1,23 @@
+
+.container{
+    border: 2px solid gray;
+    display: flex;
+}
+
+.flexbox-item{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.item-1{
+   flex-grow: 0;
+}
+.item-2{
+    flex-grow: 2;
+}
+.item-3{
+    flex-grow: 1;
+}
